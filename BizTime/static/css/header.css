@@ -1,0 +1,28 @@
+header {
+    background-color: #DDF2FD;
+    height: 150px; 
+    position: relative;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.scrap-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.mypage-button img {
+    width: 20px;
+    height: 20px;
+}

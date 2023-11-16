@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/header.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+
+        <div class="menu"> 
+            <button class="menu-button" onclick="changePage()">
+                <img src="../static/img/menu.png" width="20" height="20">
+            </button>
+        </div>
+
+        <div class="scrap"> 
+            <button class="scrap-button" onclick="changePage()">
+                <img src="../static/img/scrap.png" width="20" height="20">
+            </button>
+        </div>
+
+        <div class="mypage"> 
+            <button class="mypage-button" onclick="changePage()">
+                <img src="../static/img/mypage.png" width="20" height="20">
+            </button>
+        </div>
+
+    </header>
+
+    <h2>Login</h2>
+    <form method="post" action="/login">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
